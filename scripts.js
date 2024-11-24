@@ -16,7 +16,7 @@ function weight(){
 
 function distance(){
     //To convert KMs to Miles
-    // KM * 0.62137
+    // KM * 0.62137 //
     var km = document.getElementById("km").value;
     var m = km * 0.62137
     document.getElementById("miles").value = m
